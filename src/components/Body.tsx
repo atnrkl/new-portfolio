@@ -54,20 +54,20 @@ const StyledBodyContainer = styled.div`
   }
 `;
 const StyledImageContainer = styled.div`
-  height: 20rem !important;
+  min-height: 20rem;
 
   border: 1px solid #2b3a55;
   @media only screen and (max-width: 768px) {
-    height: 15rem !important;
+    min-height: 15rem;
   }
 `;
 
 const StyledTextContainer = styled.div`
-  height: 20rem !important;
+  min-height: 20rem;
   border: 1px solid #2b3a55;
   border-left: 0;
   @media only screen and (max-width: 768px) {
-    height: 10rem !important;
+    min-height: 10rem;
     border-left: 1px solid #2b3a55;
     border-top: 0;
   }
