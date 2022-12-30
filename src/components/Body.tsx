@@ -54,7 +54,7 @@ const StyledBodyContainer = styled.div`
   }
 `;
 const StyledImageContainer = styled.div`
-  min-height: 20rem;
+  height: 30rem;
 
   border: 1px solid #2b3a55;
   @media only screen and (max-width: 768px) {
@@ -63,7 +63,7 @@ const StyledImageContainer = styled.div`
 `;
 
 const StyledTextContainer = styled.div`
-  min-height: 20rem;
+  height: 30rem;
   border: 1px solid #2b3a55;
   border-left: 0;
   @media only screen and (max-width: 768px) {

@@ -71,7 +71,9 @@ const Marque = () => {
           alt=""
         />
         <img className="w-5 h-5 m-1" draggable={false} src={gitLogo} alt="" />
+        <img className="w-5 h-5 m-1" draggable={false} src={jsLogo} alt="" />
         <img className="w-5 h-5 m-1" draggable={false} src={reduxLogo} alt="" />
+        <img className="w-5 h-5 m-1" draggable={false} src={redisLogo} alt="" />
       </Marquee>
       <Marquee gradient={false}>
         <img className="w-5 h-5 m-1" draggable={false} src={jsLogo} alt="" />
@@ -122,6 +124,8 @@ const Marque = () => {
         <img className="w-5 h-5 m-1" draggable={false} src={gitLogo} alt="" />
         <img className="w-5 h-5 m-1" draggable={false} src={linuxLogo} alt="" />
         <img className="w-5 h-5 m-1" draggable={false} src={nftLogo} alt="" />
+        <img className="w-5 h-5 m-1" draggable={false} src={jsLogo} alt="" />
+        <img className="w-5 h-5 m-1" draggable={false} src={cssLogo} alt="" />
       </Marquee>
       <Marquee direction="right" gradient={false}>
         <img
@@ -171,6 +175,18 @@ const Marque = () => {
         <img className="w-5 h-5 m-1" draggable={false} src={jsLogo} alt="" />
         <img className="w-5 h-5 m-1" draggable={false} src={reactLogo} alt="" />
         <img className="w-5 h-5 m-1" draggable={false} src={nftLogo} alt="" />
+        <img
+          className="w-5 h-5 m-1"
+          draggable={false}
+          src={tailwindLogo}
+          alt=""
+        />
+        <img
+          className="w-5 h-5 m-1"
+          draggable={false}
+          src={styledLogo}
+          alt=""
+        />
       </Marquee>
     </div>
   );
