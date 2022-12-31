@@ -19,8 +19,6 @@ import styledLogo from "../assets/logos/styled-components.png";
 import tailwindLogo from "../assets/logos/tailwind.png";
 import reduxLogo from "../assets/logos/redux.png";
 
-import styled from "styled-components";
-
 const Marque = () => {
   return (
     <div className="flex items-center flex-col justify-center w-full h-full">
