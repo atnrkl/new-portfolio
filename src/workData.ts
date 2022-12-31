@@ -5,7 +5,7 @@ export const workData = [
     shadowTitle: "Find where to watch your Movies & TV Shows",
     techStack: ["API", "ReactJs", "Sass", "JavaScript", "Redux"],
     description:
-      "a website built by me for searching movies and tv shows to find out which streaming platform providing it",
+      "a website built by me for searching movies and tv shows to find out which streaming platform provides it",
   },
   {
     img: "/dashboard.png",
@@ -13,7 +13,7 @@ export const workData = [
     shadowTitle: "Data & Product management for your e-commerce shop",
     techStack: ["NodeJS", "ReactJs", "Sass", "JavaScript", "MongoDB"],
     description:
-      "An admin dashboard to manage your products, balance, and get stats about your job",
+      "An admin dashboard to manage your products, balance, and get stats about your business",
   },
   {
     img: "/gymweb.png",
@@ -28,7 +28,7 @@ export const workData = [
     shadowTitle: "Old web classic, a cursor maze",
     techStack: ["JavaScript", "CSS"],
     description:
-      "A maze game for your cursor, has 2 levels, in the end you're supposed to be terrified",
+      "A maze game for your cursor, has 2 levels, in the end you're supposed to be horrified",
   },
   {
     img: "/musicplayer.png",
