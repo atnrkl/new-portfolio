@@ -47,8 +47,12 @@ const Nav = () => {
       </StyledNavItem>
       <StyledNavItem {...defaultNavItemProps}>
         <div className="flex h-full w-full items-center justify-center space-x-3 lg:space-x-5">
-          <FiLinkedin />
-          <FiGithub />
+          <a href="https://tr.linkedin.com/in/atnrkl-cse" target="_blank">
+            <FiLinkedin />
+          </a>
+          <a href="https://github.com/atnrkl" target="_blank">
+            <FiGithub />
+          </a>
         </div>
       </StyledNavItem>
     </StyledNavContainer>

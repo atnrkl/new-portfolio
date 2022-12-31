@@ -15,4 +15,26 @@ export const workData = [
     description:
       "An admin dashboard to manage your products, balance, and get stats about your job",
   },
+  {
+    img: "/gymweb.png",
+    title: "Conceptual Gym website",
+    shadowTitle: "Luxury looking website for your average GYM",
+    techStack: ["NextJS", "Sass", "JavaScript"],
+    description: "A conceptual website for GYMs",
+  },
+  {
+    img: "/maze.png",
+    title: "Horror game, you'll be terrified",
+    shadowTitle: "Old web classic, a cursor maze",
+    techStack: ["JavaScript", "CSS"],
+    description:
+      "A maze game for your cursor, has 2 levels, in the end you're supposed to be terrified",
+  },
+  {
+    img: "/musicplayer.png",
+    title: "Waves",
+    shadowTitle: "Smooth music player",
+    techStack: ["JavaScript", "CSS"],
+    description: "Cool smooth music player, you can listen Lo-Fi music there",
+  },
 ];
