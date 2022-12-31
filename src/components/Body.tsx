@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { useAppSelector, useAppDispatch } from "../redux/hooks";
+import { useAppSelector } from "../redux/hooks";
 import { AnimatePresence, motion } from "framer-motion";
 
 const Body = () => {
