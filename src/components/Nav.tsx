@@ -21,6 +21,7 @@ import styledLogo from "../assets/logos/styled-components.png";
 import tailwindLogo from "../assets/logos/tailwind.png";
 import reduxLogo from "../assets/logos/redux.png";
 import Marque from "./Marque";
+import { motion } from "framer-motion";
 
 const defaultNavItemProps = {
   hiddenInMobile: false,
@@ -41,7 +42,22 @@ const Nav = () => {
       <StyledNavItem hiddenInMobile={true}>
         <div className="flex w-full h-full items-center justify-center flex-col">
           <span id="front-end">Front-end</span>
-          <span id="egg">/</span>
+          <motion.span
+            whileHover={{
+              scale: [1, 2, 2, 1, 1],
+              rotate: [0, 0, 180, 180, 0],
+            }}
+            transition={{
+              duration: 2,
+              ease: "easeInOut",
+              times: [0, 0.2, 0.5, 0.8, 1],
+              repeat: Infinity,
+              repeatDelay: 1,
+            }}
+            id="egg"
+          >
+            /
+          </motion.span>
           <span id="back-end">Back-end</span>
         </div>
       </StyledNavItem>
