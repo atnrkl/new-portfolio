@@ -21,8 +21,8 @@ const Bottom = () => {
             transition={{ duration: 0.5 }}
             className="w-full h-full flex-col flex items-start justify-center"
           >
-            <h1 className="text-3xl">{item.title}</h1>
-            <h1 className="text-3xl">{item.shadowTitle}</h1>
+            <h1 className="text-2xl lg:text-3xl">{item.title}</h1>
+            <h1 className="text-2xl lg:text-3xl">{item.shadowTitle}</h1>
           </motion.div>
         </StyledDetailWrapper>
       </StyledBottomDetails>
@@ -57,7 +57,7 @@ const StyledDetailWrapper = styled.div`
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  min-height: 12.9rem;
+  min-height: 10rem;
   pointer-events: none;
 `;
 

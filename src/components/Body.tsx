@@ -58,7 +58,7 @@ const StyledImageContainer = styled.div`
 
   border: 1px solid #2b3a55;
   @media only screen and (max-width: 768px) {
-    min-height: 15rem;
+    height: 12rem;
   }
 `;
 
@@ -67,7 +67,7 @@ const StyledTextContainer = styled.div`
   border: 1px solid #2b3a55;
   border-left: 0;
   @media only screen and (max-width: 768px) {
-    min-height: 10rem;
+    height: 8rem;
     border-left: 1px solid #2b3a55;
     border-top: 0;
   }
