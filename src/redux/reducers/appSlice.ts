@@ -11,6 +11,7 @@ interface IndexState {
     shadowTitle: string;
     techStack: string[];
     description: string;
+    link?: string;
   };
 }
 

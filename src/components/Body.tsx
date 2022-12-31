@@ -17,11 +17,13 @@ const Body = () => {
             transition={{ duration: 0.5 }}
             className="w-full h-full flex items-center p-0 border-none justify-center"
           >
-            <img
-              className="w-full h-full object-cover object-top p-0 border-none"
-              src={item?.img}
-              alt=""
-            />
+            <a className="w-full h-full" target="_blank" href={item.link}>
+              <img
+                className="w-full h-full object-cover object-top p-0 border-none"
+                src={item?.img}
+                alt=""
+              />
+            </a>
           </motion.div>
         </AnimatePresence>
       </StyledImageContainer>
