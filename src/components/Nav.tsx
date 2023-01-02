@@ -37,6 +37,7 @@ const Nav = () => {
               repeatDelay: 1,
             }}
             id="egg"
+            style={{ color: "#f9f9f9" }}
           >
             /
           </motion.span>
@@ -46,10 +47,10 @@ const Nav = () => {
       <StyledNavItem {...defaultNavItemProps}>
         <div className="flex h-full w-full items-center justify-center space-x-3 lg:space-x-5">
           <a href="https://tr.linkedin.com/in/atnrkl-cse" target="_blank">
-            <FiLinkedin />
+            <FiLinkedin color="#f9f9f9" />
           </a>
           <a href="https://github.com/atnrkl" target="_blank">
-            <FiGithub />
+            <FiGithub color="#f9f9f9" />
           </a>
         </div>
       </StyledNavItem>
@@ -71,9 +72,12 @@ const NameWrapper = styled.div`
     text-shadow: 1px 1px 0px #fb4443, -1px -1px 0px #49abce;
   }
   #name {
+    color: #f9f9f9;
     transform: translateX(-20%);
   }
   #surname {
+    color: #f9f9f9;
+
     transform: translateX(20%);
   }
 `;
@@ -92,7 +96,7 @@ const StyledNavContainer = styled.nav`
 
 const StyledNavItem = styled.div<{ hiddenInMobile: boolean }>`
   height: 5rem;
-  border: 1px solid #2b3a55;
+  border: 1px solid #f9f9f9;
   border-bottom: 0;
   border-left: 0;
 
@@ -112,6 +116,7 @@ const StyledNavItem = styled.div<{ hiddenInMobile: boolean }>`
     }
   }
   #back-end {
+    color: #f9f9f9;
     transition: all 0.2s ease-in-out;
     &:hover {
       font-weight: 900;
@@ -121,7 +126,7 @@ const StyledNavItem = styled.div<{ hiddenInMobile: boolean }>`
   @media only screen and (max-width: 768px) {
     display: ${(props) => props.hiddenInMobile && "none"};
     &#first {
-      border-left: 1px solid #2b3a55;
+      border-left: 1px solid #f9f9f9;
     }
   }
 `;
