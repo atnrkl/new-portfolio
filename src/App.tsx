@@ -9,7 +9,7 @@ import Nav from "./components/Nav";
 const App = () => {
   return (
     <div>
-      <Snowfall />
+      <Snowfall snowflakeCount={70} />
       <div
         style={{
           backgroundColor: "#144272",
