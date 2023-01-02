@@ -50,6 +50,7 @@ const StyledBodyContainer = styled.div`
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
+  color: #f9f9f9;
   @media only screen and (max-width: 768px) {
     grid-template-columns: 1fr;
     grid-template-rows: 2fr;
@@ -58,7 +59,7 @@ const StyledBodyContainer = styled.div`
 const StyledImageContainer = styled.div`
   height: 30rem;
 
-  border: 1px solid #2b3a55;
+  border: 1px solid #f9f9f9;
   @media only screen and (max-width: 768px) {
     height: 12rem;
   }
@@ -66,11 +67,11 @@ const StyledImageContainer = styled.div`
 
 const StyledTextContainer = styled.div`
   height: 30rem;
-  border: 1px solid #2b3a55;
+  border: 1px solid #f9f9f9;
   border-left: 0;
   @media only screen and (max-width: 768px) {
     height: 8rem;
-    border-left: 1px solid #2b3a55;
+    border-left: 1px solid #f9f9f9;
     border-top: 0;
   }
 `;

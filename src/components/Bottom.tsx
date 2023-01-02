@@ -31,6 +31,7 @@ const Bottom = () => {
           <HiOutlineArrowLeft
             className="cursor-pointer hover:scale-150 transition-all duration-500 ease-in-out"
             size={32}
+            color={"#f9f9f9"}
             onClick={() => {
               dispatch(decrement());
             }}
@@ -42,6 +43,7 @@ const Bottom = () => {
           <HiOutlineArrowRight
             className="cursor-pointer hover:scale-150 transition-all duration-500 ease-in-out"
             size={32}
+            color={"#f9f9f9"}
             onClick={() => {
               dispatch(increment());
             }}
@@ -59,6 +61,7 @@ const StyledDetailWrapper = styled.div`
   overflow: hidden;
   min-height: 10rem;
   pointer-events: none;
+  color: #f9f9f9;
 `;
 
 const StyledBottomContainer = styled.div`
@@ -75,7 +78,7 @@ const StyledBottomContainer = styled.div`
 `;
 
 const StyledBottomDetails = styled.div`
-  border: solid 1px #2b3a55;
+  border: solid 1px #f9f9f9;
   border-top: 0;
 
   @media only screen and (max-width: 768px) {
@@ -84,14 +87,14 @@ const StyledBottomDetails = styled.div`
 `;
 
 const StyledBottomNav = styled.div`
-  border-right: 1px solid #2b3a55;
-  border-bottom: 1px solid #2b3a55;
+  border-right: 1px solid #f9f9f9;
+  border-bottom: 1px solid #f9f9f9;
   min-height: 5rem;
 
   @media only screen and (max-width: 768px) {
     width: 50%;
     &#back-nav {
-      border-left: 1px solid #2b3a55;
+      border-left: 1px solid #f9f9f9;
     }
   }
 `;

@@ -10,7 +10,7 @@ const App = () => {
     <div>
       <div
         style={{
-          backgroundColor: "#F8F4EA",
+          backgroundColor: "#144272",
           minHeight: "100vh",
         }}
         className="app-container"

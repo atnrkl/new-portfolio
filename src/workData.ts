@@ -40,7 +40,7 @@ export const workData = [
     link: "https://musicplayer-kappa.vercel.app/",
     title: "Waves",
     shadowTitle: "Smooth music player",
-    techStack: ["JavaScript", "CSS"],
+    techStack: ["ReactJS", "Hooks"],
     description: "Cool smooth music player, you can listen Lo-Fi music there",
   },
 ];
