@@ -1,4 +1,5 @@
 import React from "react";
+import Snowfall from "react-snowfall";
 import styled from "styled-components";
 import Body from "./components/Body";
 import Bottom from "./components/Bottom";
@@ -8,6 +9,7 @@ import Nav from "./components/Nav";
 const App = () => {
   return (
     <div>
+      <Snowfall />
       <div
         style={{
           backgroundColor: "#144272",
