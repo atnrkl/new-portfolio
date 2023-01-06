@@ -18,6 +18,8 @@ import sassLogo from "../assets/logos/sass.png";
 import styledLogo from "../assets/logos/styled-components.png";
 import tailwindLogo from "../assets/logos/tailwind.png";
 import reduxLogo from "../assets/logos/redux.png";
+import nextLogo from "../assets/logos/next.png";
+import graphLogo from "../assets/logos/graphql.png";
 
 const Marque = () => {
   return (
@@ -26,6 +28,7 @@ const Marque = () => {
         <img className="w-5 h-5 m-1" draggable={false} src={jsLogo} alt="" />
         <img className="w-5 h-5 m-1" draggable={false} src={redisLogo} alt="" />
         <img className="w-5 h-5 m-1" draggable={false} src={cssLogo} alt="" />
+        <img className="w-5 h-5 m-1" draggable={false} src={graphLogo} alt="" />
         <img
           className="w-5 h-5 m-1"
           draggable={false}
@@ -45,6 +48,7 @@ const Marque = () => {
           alt=""
         />
         <img className="w-5 h-5 m-1" draggable={false} src={reactLogo} alt="" />
+        <img className="w-5 h-5 m-1" draggable={false} src={nextLogo} alt="" />
         <img className="w-5 h-5 m-1" draggable={false} src={nftLogo} alt="" />
         <img className="w-5 h-5 m-1" draggable={false} src={htmlLogo} alt="" />
         <img
@@ -82,6 +86,8 @@ const Marque = () => {
           src={tailwindLogo}
           alt=""
         />
+        <img className="w-5 h-5 m-1" draggable={false} src={nextLogo} alt="" />
+
         <img className="w-5 h-5 m-1" draggable={false} src={redisLogo} alt="" />
         <img className="w-5 h-5 m-1" draggable={false} src={reactLogo} alt="" />
         <img
@@ -92,6 +98,7 @@ const Marque = () => {
         />
         <img className="w-5 h-5 m-1" draggable={false} src={htmlLogo} alt="" />
         <img className="w-5 h-5 m-1" draggable={false} src={reduxLogo} alt="" />
+        <img className="w-5 h-5 m-1" draggable={false} src={graphLogo} alt="" />
 
         <img className="w-5 h-5 m-1" draggable={false} src={tsLogo} alt="" />
         <img
@@ -138,6 +145,8 @@ const Marque = () => {
           src={styledLogo}
           alt=""
         />
+        <img className="w-5 h-5 m-1" draggable={false} src={graphLogo} alt="" />
+
         <img className="w-5 h-5 m-1" draggable={false} src={reduxLogo} alt="" />
         <img
           className="w-5 h-5 m-1"
@@ -146,6 +155,8 @@ const Marque = () => {
           alt=""
         />
         <img className="w-5 h-5 m-1" draggable={false} src={linuxLogo} alt="" />
+        <img className="w-5 h-5 m-1" draggable={false} src={nextLogo} alt="" />
+
         <img
           className="w-5 h-5 m-1"
           draggable={false}
