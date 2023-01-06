@@ -43,4 +43,20 @@ export const workData = [
     techStack: ["ReactJS", "Hooks"],
     description: "Cool smooth music player, you can listen Lo-Fi music there",
   },
+  {
+    img: "/jetnews.png",
+    link: "https://news-app-tau-sand.vercel.app/",
+    title: "Jet News",
+    shadowTitle: "Next13 News Website",
+    techStack: [
+      "ReactJS",
+      "GraphQL",
+      "NextJS",
+      "Tailwind",
+      "SASS",
+      "Typescript",
+    ],
+    description:
+      "a Next13 news website with GraphQL & Typescript, using a free api, it might not load some pages.",
+  },
 ];
