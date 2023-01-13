@@ -33,7 +33,6 @@ const Nav = () => {
               duration: 2,
               ease: "easeInOut",
               times: [0, 0.2, 0.5, 0.8, 1],
-              repeat: Infinity,
               repeatDelay: 1,
             }}
             id="egg"
@@ -46,12 +45,15 @@ const Nav = () => {
       </StyledNavItem>
       <StyledNavItem {...defaultNavItemProps}>
         <div className="flex h-full w-full items-center justify-center space-x-3 lg:space-x-5">
-          <a href="https://tr.linkedin.com/in/atnrkl-cse" target="_blank">
+          <StyledAnchor
+            href="https://tr.linkedin.com/in/atnrkl-cse"
+            target="_blank"
+          >
             <FiLinkedin color="#f9f9f9" />
-          </a>
-          <a href="https://github.com/atnrkl" target="_blank">
+          </StyledAnchor>
+          <StyledAnchor href="https://github.com/atnrkl" target="_blank">
             <FiGithub color="#f9f9f9" />
-          </a>
+          </StyledAnchor>
         </div>
       </StyledNavItem>
     </StyledNavContainer>
@@ -77,7 +79,6 @@ const NameWrapper = styled.div`
   }
   #surname {
     color: #f9f9f9;
-
     transform: translateX(20%);
   }
 `;
@@ -128,6 +129,13 @@ const StyledNavItem = styled.div<{ hiddenInMobile: boolean }>`
     &#first {
       border-left: 1px solid #f9f9f9;
     }
+  }
+`;
+
+const StyledAnchor = styled.a`
+  &:hover {
+    transition: all ease-in 0.2s;
+    transform: scale(1.1);
   }
 `;
 
