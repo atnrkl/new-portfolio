@@ -20,8 +20,10 @@ const Body = () => {
             <a className="w-full h-full" target="_blank" href={item.link}>
               {item.img.split(".")[1] == "mp4" ? (
                 <video
-                  autoPlay
-                  loop
+                  muted
+                  autoPlay={true}
+                  loop={true}
+                  controls
                   className="w-full h-full object-cover object-top p-0 border-none"
                   src={item?.img}
                 />
