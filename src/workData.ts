@@ -1,5 +1,23 @@
 export const workData = [
   {
+    img: "/chatapp.mp4",
+    link: "https://github.com/atnrkl/messenger-graphql-backend",
+    title: "Messenger, real time chat app",
+    shadowTitle: "NextJs GraphQL real time chat app",
+    techStack: [
+      "ReactJS",
+      "GraphQL",
+      "NextJS",
+      "Chakra",
+      "Prisma",
+      "MongoDB",
+      "GraphQL",
+      "WebSocket",
+    ],
+    description:
+      "Real time chat application using GraphQL subscriptions websocket group chat enabled",
+  },
+  {
     img: "/where2watch.png",
     title: "where2watch.co",
     shadowTitle: "Find where to watch your Movies & TV Shows",

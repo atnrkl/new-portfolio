@@ -18,11 +18,20 @@ const Body = () => {
             className="w-full h-full flex items-center p-0 border-none justify-center"
           >
             <a className="w-full h-full" target="_blank" href={item.link}>
-              <img
-                className="w-full h-full object-cover object-top p-0 border-none"
-                src={item?.img}
-                alt=""
-              />
+              {item.img.split(".")[1] == "mp4" ? (
+                <video
+                  autoPlay
+                  loop
+                  className="w-full h-full object-cover object-top p-0 border-none"
+                  src={item?.img}
+                />
+              ) : (
+                <img
+                  className="w-full h-full object-cover object-top p-0 border-none"
+                  src={item?.img}
+                  alt=""
+                />
+              )}
             </a>
           </motion.div>
         </AnimatePresence>
