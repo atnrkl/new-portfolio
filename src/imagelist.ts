@@ -18,4 +18,6 @@ export const imagelist = [
   "/logos/redux.png",
   "/logos/next.png",
   "/logos/graphql.png",
+  "/logos/java.png",
+  "/logos/spring.png",
 ];
