@@ -20,4 +20,5 @@ export const imagelist = [
   "/logos/graphql.png",
   "/logos/java.png",
   "/logos/spring.png",
+  "/logos/aws.png",
 ];

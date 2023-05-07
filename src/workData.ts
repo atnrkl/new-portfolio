@@ -1,5 +1,25 @@
 export const workData = [
   {
+    img: "/draigeedemo.png",
+    link: "https://github.com/atnrkl/draigee-public",
+    title: "Draigee, SaaS AI Image generator",
+    shadowTitle:
+      "A full stack application includes GPU API, Stripe, and database integration",
+    techStack: [
+      "ReactJS",
+      "NextJS",
+      "AWS S3",
+      "Supabase",
+      "Prisma",
+      "NextAuth",
+      "Webhooks",
+      "Stripe",
+      "AI",
+    ],
+    description:
+      "Online AI image generator without using your own setup or GPU.",
+  },
+  {
     img: "/chatapp.mp4",
     link: "https://github.com/atnrkl/messenger-graphql-backend",
     title: "Messenger, real time chat app",
